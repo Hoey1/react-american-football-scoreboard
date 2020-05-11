@@ -1,6 +1,6 @@
 # Module Project: React Components and Components State - American Football Scoreboard
 
-This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete project. This module explored React components and component state. During the module, you studied what React is, what React components are and how to build them, what state is and how to make a component stateful, and how to change a components state with a click handler. In your project you will demonstrate proficiency of these subjects and principles by creating an application using each of these.
+This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete project. This module explored React components and component state. During the module, you studied what React is, what React components are and how to build them, what state is and how to make a component stateful, and how to change a components state with a click handler. In your project you will demonstrate proficiency of these subjects and principles by creating an application using each of these. Update So I can Save.
 
 ## Instructions
 
@@ -80,10 +80,10 @@ After finishing your required elements, you can push your work further. These go
 
 Start building a game of **Tic Tac Toe** in React. The positions of the 'Xs' and the 'Os' over time need to be maintained in a slice of state at the top-level component, so that the JSX may display the contents of the 3 x 3 grid correctly. Only empty squares may be selected by the human player, and the event handler that deals with these clicks will have to include quite a bit of logic:
 
-  1. Does the latest move by the human player mean **the game is over**? (Game over, then!)
-  1. Is the game **immediately winnable by the computer** by making a certain move? (Do it!)
-  1. Can the computer **block the human from winning on their next move** by making certain move? (Do it!)
-  
+1. Does the latest move by the human player mean **the game is over**? (Game over, then!)
+1. Is the game **immediately winnable by the computer** by making a certain move? (Do it!)
+1. Can the computer **block the human from winning on their next move** by making certain move? (Do it!)
+
 The move by the computer should probably be random if the previous checks turn out negative, but you'll be surprised at how smart the "game engine" will feel.
 
 Have fun!
