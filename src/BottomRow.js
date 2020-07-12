@@ -23,6 +23,5 @@ const BottomRow = () => {
     </div>
   );
 };
-//
 
 export default BottomRow;
