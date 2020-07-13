@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
-  // const [homeScore, awayScore] = useState(0);
+
   const [homeScore, setHomeScore] = useState(0);
   const [awayScore, setAwayScore] = useState(0);
 
@@ -37,12 +37,6 @@ function App() {
             Home Touchdown
           </button>
           <button
-            className="homeButtons__extraPoint"
-            onClick={() => setHomeScore(homeScore + 1)}
-          >
-            Home Extra Point
-          </button>
-          <button
             className="homeButtons__fieldGoal"
             onClick={() => setHomeScore(homeScore + 3)}
           >
@@ -57,12 +51,6 @@ function App() {
             Away Touchdown
           </button>
           <button
-            className="awayButtons__extraPoint"
-            onClick={() => setAwayScore(awayScore + 1)}
-          >
-            Away Extra Point
-          </button>
-          <button
             className="awayButtons__fieldGoal"
             onClick={() => setAwayScore(awayScore + 3)}
           >
@@ -75,3 +63,25 @@ function App() {
 }
 
 export default App;
+
+// Usage
+{
+  /* <Person name='Joey' age='39' /> */
+}
+
+// Definition
+// function Person(props) {
+//   const {name, age} = props;
+// }
+
+// or
+
+// function Person({name, age}) {
+
+// }
+
+// function Greet(props) {
+//   const { name } = props;
+//   // or //
+//   const name = props.name;
+// }
